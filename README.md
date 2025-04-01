@@ -1,2 +1,2 @@
 # programacaofaculdade
-Trabalhos faculdad
+Trabalhos faculdade
