@@ -1,0 +1,103 @@
+body {
+    background-color: #8C52FF;
+}
+
+img {
+    width: 345px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+div {
+    background-color:  #BFA3FF ;
+    max-width: 90%;
+    width: 500px;
+    padding: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+    margin-bottom: 58px;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h1 {
+    text-align: center;
+    font-size: 35px;
+    font-weight: 300;
+}
+
+input {
+    width: 210px;
+    height: 40px;
+    font-size: 19px;
+    text-align: center;
+    margin-top: 15px;
+    border-radius: 20px;
+    border: none;
+}
+
+button {
+    margin-top: 10px;
+    height: 50px;
+    border-radius: 20px;
+    width: 70%;
+    border: none;
+    background-color: #8C52FF;
+    font-size: 18px;
+    color: white;
+    cursor: pointer;
+}
+
+.btnReverso {
+    margin-top: px;
+    height: 50px;
+    border-radius: 20px;
+    width: 70%;
+    border: none;
+    background-color: #8C52FF;
+    font-size: 18px;
+    color: white;
+    cursor: pointer;
+}
+
+.inputDolar {
+    width: 210px;
+    height: 40px;
+    font-size: 19px;
+    text-align: center;
+    margin-top: 15px;
+    border-radius: 20px;
+    border: none;
+}
+
+@media (max-width: 600px) {
+  img {
+    width: 80%;
+  }
+
+  div {
+    padding: 20px;
+  }
+
+  input,
+  .inputDolar {
+    width: 100%;
+    font-size: 17px;
+  }
+
+  button,
+  .btnReverso {
+    width: 100%;
+    font-size: 16px;
+  }
+
+  h1 {
+    font-size: 28px;
+  }
+}
+
+
